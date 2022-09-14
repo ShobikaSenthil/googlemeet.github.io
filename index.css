@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+}
+.container{
+    background-color:black;
+    height:800px;
+    width:auto;
+
+}
+.card{
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+    /* gap:5px; */
+}
+.box{
+    background-color:rgb(117, 114, 114);
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    position:relative;
+    padding:15px;
+    margin:10px;
+    justify-content: space-around;
+    
+}
+.box1{
+    height:120px;
+    width:280px;
+    display:flex;
+    border-radius:5px;
+    padding:5px;
+    margin:10px;
+    position:relative;
+    background-color:rgb(117, 114, 114);
+    justify-content: center;
+}
+.name{
+    position:absolute;
+    /* color:white; */
+    bottom:2px;
+    left:10px;
+    color:black;
+}
+.name-color{
+    color:rgb(225, 220, 220);
+}
+.mic{
+    position:absolute;
+    top:5px;
+    left:200px;
+    color:rgb(225, 220, 220);
+}
+.mic1{
+    position:absolute;
+    top:5px;
+    left:250px;
+    color:rgb(225, 220, 220);
+}
+
+img{
+    position:absolute;
+    border-radius:50%;
+    height: 70px;
+    width: 70px;
+}
+
+.image{
+    position:absolute;
+    top:30px;
+    margin-left:70px;
+    
+}
+
+.image1{
+    position:absolute;
+    top:25px;
+    left:110px;
+    justify-content: center;
+}
+
+.footer{
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.footer-para{
+    color:white;
+    justify-content:left;
+    padding:20px;
+
+}
+.video{
+    display: flex;
+
+}
+.icon{
+    background-color:gray;
+    border-radius: 90%;
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    margin:10px;
+    color:white;
+}
+.icon-red{
+    background-color: red;
+    border-radius: 90%;
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    margin:10px;
+    color:white;
+}
+.icon-red-end{
+    background-color: red;
+    border-radius: 40%;
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    margin:10px;
+    color:white;
+    
+}
